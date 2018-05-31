@@ -1,3 +1,7 @@
 import hello
+import time
 
-hello.hello("bledi")
+
+for i in range(20):
+  hello.hello("bledi"+ str(i))
+  time.sleep(1)
